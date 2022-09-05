@@ -1,21 +1,21 @@
 package com.example.task_01.models;
 
-public class Greet {
+public class Greeting {
 
 //    PROPERTIES::::::::::
 
     private String name;
-    private int timeOfDay;
+    private String timeOfDay;
 
 //    CONSTRUCTORS:::::::::
 
-
-    public Greet(String name, int timeOfDay) {
+    public Greeting(String name, String timeOfDay) {
         this.name = name;
         this.timeOfDay = timeOfDay;
     }
 
-    public Greet(){
+    //Empty Constructor:
+    public Greeting(){
 
     }
 
@@ -30,11 +30,11 @@ public class Greet {
         this.name = name;
     }
 
-    public int getTimeOfDay() {
+    public String getTimeOfDay() {
         return timeOfDay;
     }
 
-    public void setTimeOfDay(int timeOfDay) {
+    public void setTimeOfDay(String timeOfDay) {
         this.timeOfDay = timeOfDay;
     }
 }

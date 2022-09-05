@@ -14,8 +14,14 @@ public class Celebration {
     public  Celebration(){
     }
 
-//    GETTERS
+//    GETTERS + SETTERS::::::::
 
 
+    public String getMessage() {
+        return message;
+    }
 
+    public void setMessage(String message) {
+        this.message = message;
+    }
 }
